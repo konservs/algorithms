@@ -1,4 +1,4 @@
-<phpunit bootstrap="src/percolation.php">
+<phpunit bootstrap="vendor/autoload.php">
   <testsuites>
     <testsuite name="money">
       <file>tests/test1.php</file>

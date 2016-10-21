@@ -1,10 +1,12 @@
 <?php
 use PHPUnit\Framework\TestCase;
+use Percolation\Percolation;
 
-class StackTest extends TestCase
-{
-    public function testPushAndPop()
-    {
+
+class StackTest extends TestCase{
+	public function testPushAndPop(){
+		$perc1=new Percolation(5);
+
         $stack = [];
         $this->assertEquals(0, count($stack));
         array_push($stack, 'foo');

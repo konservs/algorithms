@@ -1,6 +1,7 @@
 <?php
+namespace Percolation;
 
-public class QuickUnion{
+class QuickUnion{
 	private $id;
 	private $sz;
 	private $N;
