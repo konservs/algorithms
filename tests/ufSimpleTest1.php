@@ -37,6 +37,7 @@ class ufSimpleTest1 extends TestCase{
 			}
 		$this->assertEquals($qu->connected(0,24),True,'The items 0,24 should be connected (2.1)!');
 		$this->assertEquals($qu->connected(0,49),True,'The items 0,49 should be connected (2.2)!');
+		$this->assertEquals($qu->connected(0,74),True,'The items 0,74 should be connected (2.2)!');
 		$this->assertEquals($qu->connected(0,99),True,'The items 0,99 should be connected (2.3)!');
 		}
 	}
