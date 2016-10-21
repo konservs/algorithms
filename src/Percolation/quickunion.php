@@ -13,7 +13,7 @@ class QuickUnion{
 	/**
 	 *
 	 */
-	public function root($i){
+	private function root($i){
 		}
 	/**
 	 *
