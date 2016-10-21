@@ -1,8 +1,13 @@
 <phpunit bootstrap="vendor/autoload.php">
-  <testsuites>
-    <testsuite name="money">
-      <file>tests/simpletest1.php</file>
-      <file>tests/simpletest2.php</file>
-    </testsuite>
-  </testsuites>
+	<testsuites>
+		<!-- Union-find tests -->
+		<testsuite name="UnionFind">
+			<file>tests/ufSimpleTest1.php</file>
+		</testsuite>
+		<!-- Percolation tests -->
+		<testsuite name="Percolation">
+			<file>tests/simpletest1.php</file>
+			<file>tests/simpletest2.php</file>
+		</testsuite>
+	</testsuites>
 </phpunit>
