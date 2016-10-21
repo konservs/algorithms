@@ -1,0 +1,8 @@
+<phpunit bootstrap="src/percolation.php">
+  <testsuites>
+    <testsuite name="money">
+      <file>tests/test1.php</file>
+      <file>tests/test2.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
