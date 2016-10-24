@@ -1,6 +1,7 @@
 <?php
 namespace Percolation;
 use Percolation\Quickunion;
+use Exception;
 
 class Percolation {
 	/**

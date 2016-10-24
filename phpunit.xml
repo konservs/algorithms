@@ -6,8 +6,9 @@
 		</testsuite>
 		<!-- Percolation tests -->
 		<testsuite name="Percolation">
-			<file>tests/simpletest1.php</file>
-			<file>tests/simpletest2.php</file>
+			<file>tests/perctest_simple.php</file>
+			<file>tests/perctest_double.php</file>
+			<file>tests/perctest_exceptions.php</file>
 		</testsuite>
 	</testsuites>
 </phpunit>

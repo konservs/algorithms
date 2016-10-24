@@ -3,7 +3,7 @@ use PHPUnit\Framework\TestCase;
 use Percolation\Percolation;
 
 
-class SimpleTest2 extends TestCase{
+class Perctest_Double extends TestCase{
 	public function testPercolationYes(){
 		$perc1=new Percolation(2);
 	        $this->assertEquals($perc1->percolates(),false,'2x2 empty grid does not percolates! (1)');
